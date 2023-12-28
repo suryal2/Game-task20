@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(51, 25, 68);
+}
+
+.header{
+    background-color: rgb(120, 95, 130);
+    /* height:40px; */
+    padding:20px;
+    text-align: center;
+     font-size: medium;
+     position: fixed;
+     top:0;
+     width: 100%;
+     color: white;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for visual effect */
+     z-index: 1000;/* Set a high z-index to ensure it's on top of other elements */
+   
+
+     
+}
+
+.flexcard
+{
+    display:flex;
+ 
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    margin-top: 140px;
+}
+
+.card{
+   
+    margin-left: 30px;
+margin-top: 30px;
+height: 480px;
+background-color: rgb(211, 208, 214);
+
+}
+
+ img{
+    height: 200px;
+    padding: 2px;
+ }
